@@ -57,7 +57,7 @@ const workerConfig = {
       // `target` should be `host:port` for tcp monitors
       target: 'https://dlzprv-moontv.hf.space',
      // tooltip: 'My production server monitor',
-     // statusPageLink: 'https://dlzprv-moontv.hf.space',
+     statusPageLink: 'https://dlzprv-moontv.hf.space',
       timeout: 10000,
     },
   ],
