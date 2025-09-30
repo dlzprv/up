@@ -21,7 +21,7 @@ const workerConfig = {
   // Define all your monitors here
   monitors: [
     // Example HTTP Monitor
-    {
+    //{
       // `id` should be unique, history will be kept if the `id` remains constant
      // id: 'am.809098.xyz',
       // `name` is used at status page and callback message
@@ -50,14 +50,12 @@ const workerConfig = {
       // [OPTIONAL] if specified, the check will run in your specified region,
       // refer to docs https://github.com/lyc8503/UptimeFlare/wiki/Geo-specific-checks-setup before setting this value
       // checkLocationWorkerRoute: 'https://am.809098.xyz',
-    },
+    //},
     // Example TCP Monitor
     {
       id: 'moontv-space',
       name: 'moontv',
-      // `method` should be `TCP_PING` for tcp monitors
       method: 'GET',
-      // `target` should be `host:port` for tcp monitors
       target: 'https://dlzprv-moontv.hf.space',
      // tooltip: 'My production server monitor',
      statusPageLink: 'https://dlzprv-moontv.hf.space',
