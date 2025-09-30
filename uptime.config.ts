@@ -53,7 +53,7 @@ const workerConfig = {
       id: 'moontv-space',
       name: 'moontv',
       // `method` should be `TCP_PING` for tcp monitors
-      method: 'HTTP',
+      method: 'GET',
       // `target` should be `host:port` for tcp monitors
       target: 'https://dlzprv-moontv.hf.space',
      // tooltip: 'My production server monitor',
