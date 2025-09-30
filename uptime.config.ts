@@ -3,7 +3,10 @@ const pageConfig = {
  // title: "数字套利 •「AM科技」's Status Page",
   // Links shown at the header of your status page, could set `highlight` to `true`
   links: [
-    { link: 'https://dlzprv-moontv.hf.space', highlight: true },
+    { link: 'https://dlzprv-moontv.hf.space', label: 'moontv'，highlight: true },
+    //{ link: 'https://am.809098.xyz', label: '个人博客' },
+    //{ link: 'https://809098.xyz', label: 'Blog', highlight: true },
+
   // { link: 'https://809098.xyz', label: 'Blog'},
  //   { link: 'https://youtube.com/@AM_CLUBS', label: 'YouTube' },
   //  { link: 'https://github.com/amclubs', label: 'GitHub' }, 
